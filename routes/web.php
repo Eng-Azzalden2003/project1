@@ -8,3 +8,9 @@ Route::get('/', function () {
 Route::get('home', function() {
     return 'Home , Home' ;
 });
+
+Route::get('/about', function () {
+    return view('schol'); //schol.blade.php
+});
+
+
